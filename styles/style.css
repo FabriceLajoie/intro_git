@@ -30,7 +30,7 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(172, 44, 44);
   background-color: aqua;
-  background-image: url(/images/cout-chien.jpg);
+  background-image: url(/intro_git/images/cout-chien.jpg);
   background-position: center;
   background-size: var(--img-height);
   background-repeat: inherit;
