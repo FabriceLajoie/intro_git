@@ -1,0 +1,55 @@
+/*
+
+TABLE OF CONTENT
+
+1. Variable
+2. Global
+3. Main
+    3.1 Section accueil
+    3.2 Section bio
+    3.3 Section projet
+    3.4 Section contact
+4. Header
+5. Média
+*/
+
+/* 1. Variable */
+:root {
+  --clr-red: red;
+  --clr-blue: blue;
+  --img-width: 600px;
+  --img-height: 300px;
+}
+
+/* 2. Global */
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(172, 44, 44);
+  background-color: aqua;
+  background-image: url(/images/cout-chien.jpg);
+  background-position: center;
+  background-size: var(--img-height);
+  background-repeat: inherit;
+  font-size: 1rem;
+}
+
+/* 2. Header */
+header h1 {
+  background-color: var(--clr-red);
+  color: var(--clr-blue);
+}
+
+img {
+  width: var(--img-width);
+  height: var(--img-height);
+}
+
+/* 3.1 accueil */
+#accueil {
+  background-color: blueviolet;
+  color: var(--clr-red);
+}
